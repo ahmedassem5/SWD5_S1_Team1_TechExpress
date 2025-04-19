@@ -1,5 +1,30 @@
+# .NET build files
+bin/
+obj/
+
+# Visual Studio files
 .vs/
 *.user
 *.suo
-*.vsidx
+*.userosscache
+*.sln.docstates
 
+# OS generated files
+Thumbs.db
+.DS_Store
+
+# Deployment files
+publish/
+
+# Logs
+*.log
+
+# Node.js
+node_modules/
+npm-debug.log
+
+# IDE configurations
+.idea/
+.vscode/
+# Ignore appsettings.json for sensitive data
+appsettings.json
